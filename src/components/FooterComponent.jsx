@@ -29,9 +29,10 @@ const FooterComponent = ()=>{
     return(
         <motion.section style={{
             backgroundImage,
-        }} className="relative flex  items-end h-[20rem] bg-transparent place-content-center overflow-hidden px-4  text-grey-200 z-50">
+            backgroundColor: 'transparent',
+        }} className="relative flex  items-end h-[20rem] bg-transparent place-content-center overflow-hidden px-4  text-grey-200">
 
-            <div className="text-white  w-screen flex justify-between items-center px-10 py-5">
+            <div className="text-white  w-screen bg-transparent flex justify-between items-center px-10 py-5">
                 <div>
                     <h3 className="text-xl flex gap-2">Bihar,<span>India</span></h3>
                     <p>{tarik}</p>

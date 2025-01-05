@@ -84,7 +84,7 @@ const Contact = () => {
   return (
     <>
       <section
-        id="contact"
+        id="Contact"
         className=" w-full h-auto flex flex-col items-center justify-center md:pb-2"
       >
 
@@ -97,7 +97,7 @@ const Contact = () => {
             whileInView={{ opacity: 1, scaleX: 1 }}
             transition={{ ease: "easeInOut", duration: 0.8, delay: 0.3 }}
           >
-            <p className=" text-gray-400 text-sm md:text-lg select-none">
+            <p className=" text-gray-400 text-sm md:text-lg select-none text-center">
               I’d love to hear from you! Whether it’s just a quick hello or
               something more, don’t hesitate to drop me a message. I’ll get back
               to you as soon as I can!
@@ -115,7 +115,7 @@ const Contact = () => {
             >
               <div>
                 <Label className="text-gray-400 ml-1 text-lg">First Name</Label>
-                <Input type="text" className="h-12 w-72" name="user_name outline-none" />
+                <Input type="text" className="h-12 w-72 outline-none" name="user_name " />
                 {errorMsg && <p className="text-red-500 ml-1 text-xs md:text-sm">Name must be at least 4 characters long</p>}
               </div>
               <div>
@@ -131,7 +131,7 @@ const Contact = () => {
               whileInView={{ opacity: 1, scaleY: 1 }}
               transition={{ ease: "easeInOut", duration: 0.8, delay: 0.5 }}
             >
-              <Label className="text-gray-400 ml-1 text-lg">Email</Label>
+              <Label className="text-gray-400 ml-1 text-lg">Your Email</Label>
               <Input type="email" className="h-12 w-full" name="user_email" />
               {errorMsg && <p className="text-red-500 ml-1 text-xs md:text-sm">Enter a valid email ID</p>}
 

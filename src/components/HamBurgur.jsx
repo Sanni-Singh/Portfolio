@@ -19,7 +19,7 @@ export default function Variantss() {
 
     return (
         <div>
-            <div style={container} className="">
+            <div style={container} className="z-50">
                 <motion.nav
                     initial={false}
                     animate={isOpen ? "open" : "closed"}
@@ -52,7 +52,7 @@ const navVariants = {
 
 const Navigation = () => (
     <motion.ul className="  flex flex-col gap-8" style={list} variants={navVariants}>
-        {["Home" , "Skills", "Projects", "Contact Me"].map((ele ,i) => (
+        {["Home" , "Skills", "Projects", "Contact"].map((ele ,i) => (
             <MenuItem val ={ele} idx ={i} key={i} />
         ))}
          {/* {val && <div className=" flex gap-8 justify-end">
@@ -186,6 +186,7 @@ const container = {
     height: "100vh",
     borderRadius: 20,
     overflow: "hidden",
+    zIndex: 99,
 };
 
 
