@@ -5,6 +5,7 @@ import one from '../utils/image/one.gif'
 import two from '../utils/image/two.gif'
 import three from '../utils/image/three.gif'
 import four from '../utils/image/four.gif'
+import resume from '../assets/resume.pdf'
 
 let gif = [one,two,three,four];
 let gifIdx = Math.floor(Math.random() * (gif.length - 1));
@@ -87,7 +88,7 @@ const HomeComponent = ()=>{
                 </span>
               </span>
             </motion.h1>
-            <motion.a href="" download
+            <motion.a href={resume} download
                 initial={{ opacity: 0, y: 40 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1, delay: 0.6, ease: "easeIn" }}

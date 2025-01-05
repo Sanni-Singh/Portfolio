@@ -29,7 +29,7 @@ const FooterComponent = ()=>{
     return(
         <motion.section style={{
             backgroundImage,
-        }} className="relative flex  items-end h-[20rem] bg-transparent place-content-center overflow-hidden px-4  text-grey-200 ">
+        }} className="relative flex  items-end h-[20rem] bg-transparent place-content-center overflow-hidden px-4  text-grey-200 z-50">
 
             <div className="text-white  w-screen flex justify-between items-center px-10 py-5">
                 <div>
@@ -38,10 +38,7 @@ const FooterComponent = ()=>{
                 </div>
                 <p className="flex justify-center items-center gap-3 text-xl">Made With 💓 by <span className="text-3xl text-bold">Sanniii</span></p>
                 <a href="#Home">
-                <motion.button style={{
-                    border,
-                    borderShadow
-                }} className=" bg-gray-950/10 text-gray-50 transition-colours p-2 rounded-lg cursor-pointer hover:bg-gray-950/50">Back To Top</motion.button>
+                <motion.button style={{border,borderShadow}} className=" bg-gray-950/10 text-gray-50 transition-colours p-2 rounded-lg cursor-pointer hover:bg-gray-950/50">Back To Top</motion.button>
                 </a>
             </div>
 
