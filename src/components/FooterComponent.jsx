@@ -5,7 +5,7 @@ const COLOR = ["#13FFAA" , "#1E67C6","#CE84CF","#DD335C"]
 
 const FooterComponent = ()=>{
     const color = useMotionValue(COLOR[0]);
-    const backgroundImage = useMotionTemplate`radial-gradient(100% 100% at 50% 0%, #FF0000 50% , ${color})`
+    const backgroundImage = useMotionTemplate`radial-gradient(100% 100% at 50% 0%, #020617 50% , ${color})`
     const border = useMotionTemplate`1px solid ${color}`
     const borderShadow = useMotionTemplate`0px 4px 24px  ${color}`
 
