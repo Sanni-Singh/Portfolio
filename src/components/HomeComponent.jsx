@@ -89,6 +89,7 @@ const HomeComponent = ()=>{
               </span>
             </motion.h1>
             <motion.a href={resume} download
+            className=" w-fit"
                 initial={{ opacity: 0, y: 40 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1, delay: 0.6, ease: "easeIn" }}

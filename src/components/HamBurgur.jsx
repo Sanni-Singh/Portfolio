@@ -19,7 +19,7 @@ export default function Variantss() {
 
     return (
         <div>
-            <div style={container} className="z-50">
+            <div style={container} className={` ${isOpen ? "w-[350px] h-[100vh]" :  "w-[100px] h-[100px]"}`}>
                 <motion.nav
                     initial={false}
                     animate={isOpen ? "open" : "closed"}
@@ -28,9 +28,7 @@ export default function Variantss() {
                     style=""
                     className=""
                 >
-                    <motion.div  style={background} variants={sidebarVariants}>
-                       
-                    </motion.div>
+                    <motion.div  style={background} variants={sidebarVariants}></motion.div>
                     <Navigation />
                     
                     <MenuToggle toggle={() => setIsOpen(!isOpen)} />
@@ -181,12 +179,11 @@ const container = {
     justifyContent: "flex-start",
     alignItems: "stretch",
     flex: 1,
-    width: 350,
+    // width: 100,
     maxWidth: "100%",
-    height: "100vh",
+    // height:100,
     borderRadius: 20,
     overflow: "hidden",
-    zIndex: 99,
 };
 
 

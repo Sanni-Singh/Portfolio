@@ -3,9 +3,7 @@ import Header from "../components/SkillsHeader";
 import { Label } from "@radix-ui/react-label";
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-import { motion, AnimatePresence } from "framer-motion";
-// import { Socials } from "../utils/helper";
-// import SocialLinks from "../components/Home/SocialLinks";
+import { motion } from "framer-motion";
 import { toast,Bounce } from "react-toastify"
 
 
@@ -22,7 +20,8 @@ const Contact = () => {
     const email = form.current?.elements["user_email"].value.trim();
     const msg = form.current?.elements["message"].value.trim();
     const EnvPublicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
-
+    // console.log(firstName)
+    console.log(email)
 
     if (!firstName || !email || !msg) {
       // alert("please Enter valid Name & Email ID")
@@ -115,7 +114,7 @@ const Contact = () => {
             >
               <div>
                 <Label className="text-gray-400 ml-1 text-lg">First Name</Label>
-                <Input type="text" className="h-12 w-72 outline-none" name="user_name " />
+                <Input type="text" className="h-12 w-72 outline-none" name="user_name" />
                 {errorMsg && <p className="text-red-500 ml-1 text-xs md:text-sm">Name must be at least 4 characters long</p>}
               </div>
               <div>

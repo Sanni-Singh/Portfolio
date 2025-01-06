@@ -66,7 +66,7 @@ const EncryptButton = () => {
         onMouseLeave={stopScramble}
         className="group relative overflow-hidden rounded-lg border-[1px] border-secondary bg-neutral-700 px-4 py-2 font-mono font-medium uppercase text-neutral-300 transition-colors hover:text-primary"
         >
-        <div className="relative z-10 flex items-center gap-2">
+        <div className="relative z-10 flex items-center gap-2 ">
             <FiLock />
             <span className="text-yellow-400">{text}</span>
         </div>
