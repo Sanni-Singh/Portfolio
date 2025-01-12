@@ -3,8 +3,8 @@
 Welcome to my personal portfolio! This repository showcases my journey, projects, and skills in the tech world. It's a reflection of my passion for development, design, and innovation.
 
 🌐 Live Demo
-Check out the live version of my portfolio here: 
-([Live Demo](https://portfolio-sanni.vercel.app/))
+Check out the live version of my portfolio here🌟 
+[Live Demo](https://portfolio-sanni.vercel.app/)
 
 ## 🖥️ Technologies Used
 
