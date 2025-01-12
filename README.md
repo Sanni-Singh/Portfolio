@@ -2,13 +2,9 @@
 
 Welcome to my personal portfolio! This repository showcases my journey, projects, and skills in the tech world. It's a reflection of my passion for development, design, and innovation.
 
----
-
 🌐 Live Demo
 Check out the live version of my portfolio here: 
 ([Live Demo](https://portfolio-sanni.vercel.app/))
-
----
 
 ## 🖥️ Technologies Used
 
@@ -22,8 +18,6 @@ Check out the live version of my portfolio here:
   - Git and GitHub
 
 It’s not about the tools you use; it’s about how creatively you use them. Except for TailwindCSS… that’s just a lifesaver. 🚑
-
----
 
 ## 🎨 Features
 
@@ -49,9 +43,9 @@ Contributions are welcome! If you’d like to contribute, please follow these st
 📞 Contact
 Feel free to reach out if you have any questions or suggestions!
 
-* Email: (`aryansingh7371@gmail.com`,`#`)
-* GitHub: (`https://github.com/Sanni-Singh`,`#`)
-* LinkedIn: (`https://www.linkedin.com/in/sanni07/`,`#`)
+* Email: ([You Can Mail Here](aryansingh7371@gmail.com))
+* GitHub: ([CheakOut Github](https://github.com/Sanni-Singh))
+* LinkedIn: ([You Can Connect Me On Linkdin](https://www.linkedin.com/in/sanni07/))
 
 ---
 📄 License
