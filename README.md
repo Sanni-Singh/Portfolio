@@ -24,9 +24,7 @@ It’s not about the tools you use; it’s about how creatively you use them. Ex
 - SEO-optimized structure
 - Integrated contact form (if applicable)
 
----
-
-🤝 Contributing
+## 🤝 Contributing
 Contributions are welcome! If you’d like to contribute, please follow these steps:
 
 1. Fork the repository.
@@ -35,17 +33,14 @@ Contributions are welcome! If you’d like to contribute, please follow these st
 4. Push to the branch.
 5. Open a pull request.
 
----
-
-📞 Contact
+## 📞 Contact
 Feel free to reach out if you have any questions or suggestions!
 
 * Email: (aryansingh7371@gmail.com)
 * GitHub: ([CheakOut Github](https://github.com/Sanni-Singh))
 * LinkedIn: ([You Can Connect Me On Linkdin](https://www.linkedin.com/in/sanni07/))
 
----
-📄 License
+## 📄 License
 
 * No copyright claims here! Feel free to remix, refactor, and reimagine this portfolio into your own masterpiece. Sharing is caring! 🤝
 
