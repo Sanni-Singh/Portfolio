@@ -13,8 +13,6 @@ Check out the live version of my portfolio here:
 * TailwindCSS: For modern, responsive styling.
 * Vite: Because who has time for slow build tools?
 * JavaScript: Of course, it’s JavaScript. What else?
-- **Version Control**: 
-  - Git and GitHub
 
 It’s not about the tools you use; it’s about how creatively you use them. Except for TailwindCSS… that’s just a lifesaver. 🚑
 
