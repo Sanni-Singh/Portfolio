@@ -13,7 +13,6 @@ Check out the live version of my portfolio here:
 * TailwindCSS: For modern, responsive styling.
 * Vite: Because who has time for slow build tools?
 * JavaScript: Of course, it’s JavaScript. What else?
-
 - **Version Control**: 
   - Git and GitHub
 
@@ -43,7 +42,7 @@ Contributions are welcome! If you’d like to contribute, please follow these st
 📞 Contact
 Feel free to reach out if you have any questions or suggestions!
 
-* Email: ([You Can Mail Here](aryansingh7371@gmail.com))
+* Email: (aryansingh7371@gmail.com)
 * GitHub: ([CheakOut Github](https://github.com/Sanni-Singh))
 * LinkedIn: ([You Can Connect Me On Linkdin](https://www.linkedin.com/in/sanni07/))
 
