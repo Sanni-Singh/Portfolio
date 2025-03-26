@@ -9,10 +9,30 @@ import JavaSvg from "../assets/java.svg";
 import CPP from "../assets/cpp.svg";
 import ReduxLogo from "../assets/redux.svg";
 import FigmaLogo from "../assets/figma.png"
+import Node from "../assets/node.svg"
+import MongoDb from "../assets/mongoDB.svg"
+import Express from "../assets/express.svg"
+import typescript from "../assets/typescript.svg"
 
 
 
 export const SkillsInfo = [
+  {
+    name: "Node JS",
+    Logo: Node,
+  },
+  {
+    name: "Express JS",
+    Logo: Express,
+  },
+  {
+    name: "MongoDb",
+    Logo: MongoDb,
+  },
+  {
+    name: "TypeScript",
+    Logo: typescript,
+  },
     {
       name: "JavaScript",
       Logo: JsLogo,
