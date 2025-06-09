@@ -32,7 +32,7 @@ function App() {
       <Skills />
       <div id='Projects' className='w-[100%]'>
           <Header title="PROJECTS"/>
-          <div className='w-[100%]   flex flex-wrap gap-12 justify-center items-center px-12'>
+          <div className='w-[100%]   flex flex-wrap gap-12 justify-center items-center sm:px-12 px-4'>
               <ThreeDCard imgUrl={talksy} name={"Talksy"} para={"Talksy is real-time chat app with instant messaging, image sharing, WhatsApp-like UI." } github={"https://github.com/Sanni-Singh/Talksy"} hosted={"https://talksy-y3vl.onrender.com"}/>
               <ThreeDCard imgUrl={movie} name={"Movie Bajar"} para={"A Movie frontend App built using ReactJS, TailwindCSS and Redux for state management." } github={"https://github.com/Sanni-Singh/Movies-Bajar-AI"} hosted={"https://movies-bajar-ai.vercel.app/"}/>
 

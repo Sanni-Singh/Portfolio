@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 const SkillsCard = ({name, Logo}) => {
   return (
-    <div className="relative   bg-white text-black rounded-md flex justify-center gap-2 md:gap-3 lg:gap-4 items-center px-1.5 sm:px-3 h-12 lg:h-16 gh-regular hover:bg-transparent hover:text-white transition-all duration-300 ease-in-out cursor-pointer">
+    <div className="relative   bg-white text-black rounded-md flex justify-center gap-2 md:gap-3 lg:gap-4 items-center px-5 sm:px-3 h-12 lg:h-16 gh-regular hover:bg-transparent hover:text-white transition-all duration-300 ease-in-out cursor-pointer">
       <motion.p 
       initial={{ opacity: 0, y: -20 }}
       whileInView={{ opacity: 1, y: 0 }}
