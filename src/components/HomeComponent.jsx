@@ -55,10 +55,10 @@ const HomeComponent = ()=>{
       return(
         <section
         id="Home"
-        className="min-h-screen flex items-center bg-radial-gradient text-white "
+        className="min-h-screen  flex items-center flex-col justify-center bg-radial-gradient text-white gap-[4rem]"
       >
         <div className="container mx-auto flex flex-col md:flex-row items-center">
-          <div className="md:w-1/2 flex justify-center cursor-pointer">
+          <div className="md:w-1/2  flex justify-center cursor-pointer">
             <motion.img
               src={gif[2]}
               alt="Profile"
@@ -72,7 +72,7 @@ const HomeComponent = ()=>{
             />
           </div>
   
-          <div className="md:w-1/2 text-center md:text-left  md:mb-0 flex flex-col gap-12">
+          <div className="md:w-1/2  text-center md:text-left  md:mb-0 flex flex-col gap-12">
             <motion.h1
               id="heading1"
               className="sm:text-5xl md:text-6xl leading-tight text-[30px] font-bold "
@@ -88,6 +88,8 @@ const HomeComponent = ()=>{
                 </span>
               </span>
             </motion.h1>
+          </div>
+        </div>
             <motion.a href={resume} download
             className=" w-fit "
                 initial={{ opacity: 0, y: 40 }}
@@ -96,10 +98,6 @@ const HomeComponent = ()=>{
             >
                 <CVDownLoad />
             </motion.a>
-            
-          </div>
-          
-        </div>
       </section>
       )
     
